@@ -15,7 +15,7 @@
   "[\"audio\", \"text\"], \"instructions\": \"Say '"GREETING"'\"}}"
 
 #define INSTRUCTION_JSON                                            \
-  "{\"type\": \"session.update\", \"session\": {\"instructions\": \"Say '"INSTRUCTIONS"'\"}}"
+  "{\"type\": \"session.update\", \"session\": {\"instructions\": \""INSTRUCTIONS"\"}}"
 
 PeerConnection *peer_connection = NULL;
 
